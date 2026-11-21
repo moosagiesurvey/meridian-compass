@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     q: "What happens after launch — is it a one-time thing?",
-    a: "Choose the package that fits your next step: Get Online is R10,000 once-off plus R599/month Meridian Care; Get Found and Get Chosen start at R7,500 once-off with visibility retainers. Every package includes a custom build; the difference is the ongoing visibility support.",
+    a: "Choose the package that fits your next step: Get Online is R10,000 once-off plus R999/month Meridian Care; Get Found and Get Chosen start at R7,500 once-off with visibility retainers. Every package includes a custom build; the difference is the ongoing visibility support.",
   },
   {
     q: "What if I need changes after the site is live?",
@@ -170,7 +170,7 @@ function WebDesignPage() {
             <div className="mt-12 bg-[#0c1a30] border border-white/8 p-8">
               <h2 className="font-serif text-ivory text-xl mb-3">What it costs</h2>
               <p className="text-ivory/70 leading-relaxed font-light">
-                Get Online is R10,000 once-off plus R599/month Meridian Care. If visibility is the
+                Get Online is R10,000 once-off plus R999/month Meridian Care. If visibility is the
                 priority, Get Found is R7,500 once-off plus R3,500/month, while Get Chosen is
                 R7,500 once-off plus R6,500/month and a growth bonus. See the pricing section for
                 each package’s inclusions.

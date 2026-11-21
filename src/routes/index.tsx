@@ -306,7 +306,7 @@ function ServicesPreview() {
 
 /* ---------------- Packages ---------------- */
 const WEBSITE_PACKAGES = [
-  { name: "Get Online", price: "R10,000", sub: "once-off build + R599/month Meridian Care", items: ["Custom site, up to 6 pages", "Mobile-first, fast-loading design", "Domain, SSL & managed hosting", "Backups, security & maintenance", "Google Analytics & technical support"], best: "A professional website with ongoing care." },
+  { name: "Get Online", price: "R10,000", sub: "once-off build + R999/month Meridian Care", items: ["Custom site, up to 6 pages", "Mobile-first, fast-loading design", "Domain, SSL & managed hosting", "Backups, security & maintenance", "Google Analytics & technical support"], best: "A professional website with ongoing care." },
   { name: "Get Found", price: "R7,500", sub: "once-off build + R3,500/month visibility retainer", items: ["Everything in Get Online", "Monthly on-page SEO", "Google Business Profile management", "Keyword tracking & monthly report", "Local search improvements"], best: "Businesses ready to rank on Google and Maps consistently." },
   { name: "Get Chosen", price: "R7,500", sub: "once-off build + R6,500/month + growth bonus", items: ["Everything in Get Found", "AI search visibility", "Local map ranking optimisation", "Dedicated tracked call & lead number", "Quarterly strategy review"], best: "Full SEO, AI visibility and growth tracking.", bonus: true },
 ];
