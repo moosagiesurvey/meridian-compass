@@ -8,7 +8,7 @@ const NAV_LINKS = [
   { to: "/services" as const, label: "Services" },
   { to: "/case-studies" as const, label: "Case Studies" },
   { to: "/insights" as const, label: "Insights" },
-  { to: "/" as const, hash: "pricing", label: "Pricing" },
+  { to: "/pricing" as const, label: "Pricing" },
   { to: "/faq" as const, label: "FAQ" },
 ];
 

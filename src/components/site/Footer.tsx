@@ -59,6 +59,12 @@ export function Footer() {
             Insights
           </Link>
           <Link
+            to="/pricing"
+            className="text-slate-muted hover:text-gold text-xs tracking-wide transition-colors"
+          >
+            Pricing
+          </Link>
+          <Link
             to="/faq"
             className="text-slate-muted hover:text-gold text-xs tracking-wide transition-colors"
           >
