@@ -14,7 +14,9 @@ export default defineConfig({
   vite: {
     plugins: [
       nitro({
-        preset: "vercel",
+        // Vercel by default; set NITRO_PRESET=cloudflare_module to build for
+        // Cloudflare Workers.
+        preset: process.env.NITRO_PRESET === "cloudflare_module" ? "cloudflare_module" : "vercel",
       }),
     ],
   },

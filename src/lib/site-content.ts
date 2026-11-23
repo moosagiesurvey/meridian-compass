@@ -1,4 +1,4 @@
-export const SITE_URL = "https://www.meridiandigital.co.za";
+export const SITE_URL = "https://meridian-digital.co.za";
 export const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
 export function buildBreadcrumbJsonLd(items: { name: string; path: string }[]) {

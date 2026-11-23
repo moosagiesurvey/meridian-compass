@@ -40,6 +40,12 @@ async function normalizeCatastrophicSsrResponse(response: Response): Promise<Res
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
     try {
+      // Canonical host: redirect www to the apex domain.
+      const url = new URL(request.url);
+      if (url.hostname === "www.meridian-digital.co.za") {
+        url.hostname = "meridian-digital.co.za";
+        return Response.redirect(url.toString(), 301);
+      }
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);
       return await normalizeCatastrophicSsrResponse(response);
