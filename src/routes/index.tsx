@@ -9,7 +9,7 @@ import { CASE_STUDIES, SERVICES, STEPS, FAQS, SITE_URL } from "../lib/site-conte
 const HOME_FAQ_QUESTIONS = [
   "How fast is 'days, not months'?",
   "What is Answer Engine Optimisation (AEO), in plain terms?",
-  "Do you only work with businesses in KwaZulu-Natal?",
+  "Do you only work with businesses in Cape Town?",
   "I already have a website. Is there a point talking to you?",
 ];
 const HOME_FAQS = FAQS.filter((f) => HOME_FAQ_QUESTIONS.includes(f.q));
@@ -18,11 +18,11 @@ const homeFaqJsonLd = buildFaqJsonLd(HOME_FAQS);
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Web Design, SEO & AEO Agency in KZN | Meridian Digital" },
+      { title: "Web Design, SEO & AEO Agency in Cape Town | Meridian Digital" },
       {
         name: "description",
         content:
-          "Get a website that earns trust and search visibility that brings enquiries. Web design, SEO, Google Business Profile and AEO for KwaZulu-Natal businesses.",
+          "Get a website that earns trust and search visibility that brings enquiries. Web design, SEO, Google Business Profile and AEO for Cape Town businesses.",
       },
       {
         property: "og:title",
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Web design, SEO and AI search visibility that helps KwaZulu-Natal businesses win more enquiries.",
+          "Web design, SEO and AI search visibility that helps Cape Town businesses win more enquiries.",
       },
       { property: "og:url", content: SITE_URL },
     ],
@@ -173,13 +173,13 @@ function Hero() {
       <HeroCanvas />
       <Dust />
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <div className="label-eyebrow mb-6">Meridian Digital — KwaZulu-Natal, South Africa</div>
+        <div className="label-eyebrow mb-6">Meridian Digital — Cape Town, South Africa</div>
         <h1 className="font-serif text-ivory leading-[1.05] text-4xl sm:text-5xl md:text-6xl lg:text-[4.25rem]">
           <span className="italic block">Be the business they find</span>
           <span className="block">— and the one they choose.</span>
         </h1>
         <p className="mt-8 text-ivory/75 max-w-2xl mx-auto text-base md:text-[1.05rem] leading-relaxed font-light">
-          Websites, Google visibility and AI search optimisation for KwaZulu-Natal businesses that
+          Websites, Google visibility and AI search optimisation for Cape Town businesses that
           need more qualified enquiries — not another pretty site that sits unnoticed.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-5">

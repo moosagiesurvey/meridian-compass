@@ -82,8 +82,8 @@ export const FAQS = [
     a: "Yes — including Ghost Portuguese Inspired in Ballito and our own security division, fully disclosed. We'd rather show you honest work than pad the page.",
   },
   {
-    q: "Do you only work with businesses in KwaZulu-Natal?",
-    a: "No — we work with businesses across South Africa. KwaZulu-Natal is home turf and where we meet clients in person, but the build process itself works the same way regardless of postcode.",
+    q: "Do you only work with businesses in Cape Town?",
+    a: "No — we work with businesses across South Africa. Cape Town is home turf and where we meet clients in person, but the build process itself works the same way regardless of postcode.",
   },
   {
     q: "I already have a website. Is there a point talking to you?",

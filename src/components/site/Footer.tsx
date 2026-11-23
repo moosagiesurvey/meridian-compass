@@ -142,7 +142,7 @@ export function Footer() {
           </div>
         </div>
         <p className="text-slate-muted/70 text-xs">
-          © 2026 Meridian Digital. KwaZulu-Natal, South Africa.
+          © 2026 Meridian Digital. Cape Town, South Africa.
         </p>
       </div>
     </footer>
