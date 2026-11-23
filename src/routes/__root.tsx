@@ -16,7 +16,7 @@ const professionalServiceJsonLd = {
   "@id": ORGANIZATION_ID,
   name: "Meridian Digital",
   telephone: "+27658839408",
-  email: "sales@meridiandigital.co.za",
+  email: "sales@meridian-digital.co.za",
   areaServed: [
     "South Africa",
     "KwaZulu-Natal",
