@@ -21,6 +21,9 @@ dist-ssr
 .wrangler/
 .dev.vars
 
+# Fonts fetched by scripts/build-bimi-logo.mjs (OFL, not vendored)
+fonts/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
